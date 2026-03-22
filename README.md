@@ -1,55 +1,79 @@
-# Claude Code Template for Spring Boot Application
+# Claude Code Templates for Multi-Stack Applications
 
-This template provides a structured starting point for Spring Boot applications, optimized for Claude AI's code completion capabilities. It includes essential configurations and best practices to streamline development and enhance productivity.
+This repository provides highly optimized, structured starting points for various application stacks, specifically designed for Claude AI's code completion and agentic capabilities. Each configuration includes specialized agents and skills to streamline development, ensure best practices, and enhance productivity.
 
-The idea behind this template is that you can just clone this repository and use it to generate the app you want with Claude Code.
+## Supported Stacks
+
+- **Spring Boot (Java)**: Found in `.claude/`
+- **Laravel (PHP)**: Found in `.claude-php/`
+- **NestJS (TypeScript)**: Found in `.claude-ts/`
+
+## Project Structure
 
 ```shell
 .
-├── .claude
-│   ├── agents
-│   │   ├── code-reviewer.md
-│   │   ├── devops-engineer.md
-│   │   ├── docker-expert.md
-│   │   ├── java-architect.md
-│   │   ├── kubernetes-specialist.md
-│   │   ├── security-engineer.md
-│   │   ├── spring-boot-engineer.md
-│   │   └── test-automator.md
-│   ├── settings.local.json
-│   └── skills
-│       ├── README.md
-│       ├── api-contract-review
-│       │   └── SKILL.md
-│       ├── clean-code
-│       │   └── SKILL.md
-│       ├── design-patterns
-│       │   └── SKILL.md
-│       ├── java-architect
-│       │   ├── SKILL.md
-│       │   └── references
-│       │       ├── jpa-optimization.md
-│       │       ├── reactive-webflux.md
-│       │       ├── spring-boot-setup.md
-│       │       ├── spring-security.md
-│       │       └── testing-patterns.md
-│       ├── java-code-review
-│       │   └── SKILL.md
-│       ├── jpa-patterns
-│       │   └── SKILL.md
-│       ├── logging-patterns
-│       │   └── SKILL.md
-│       ├── spring-boot-engineer
-│       │   ├── SKILL.md
-│       │   └── references
-│       │       ├── cloud.md
-│       │       ├── data.md
-│       │       ├── security.md
-│       │       ├── testing.md
-│       │       └── web.md
-│       └── spring-boot-patterns
-│           └── SKILL.md
-├── CLAUDE.md
-├── README.md
-└── pom.xml
+├── .claude/                # Spring Boot Configuration
+│   ├── agents/             # Java/Spring specialized agents
+│   └── skills/             # Java/Spring development skills
+├── .claude-php/            # Laravel Configuration
+│   ├── agents/             # PHP/Laravel specialized agents
+│   └── skills/             # PHP/Laravel development skills
+├── .claude-ts/             # NestJS Configuration
+│   ├── agents/             # TS/NestJS specialized agents
+│   └── skills/             # TS/NestJS development skills
+├── CLAUDE.md               # Claude-specific project rules
+├── README.md               # Project documentation
+└── pom.xml                 # Root Maven configuration (example)
 ```
+
+---
+
+## 🐘 PHP & Laravel Configuration (`.claude-php`)
+
+The PHP configuration is tailored for modern Laravel development, focusing on Eloquent ORM, architectural patterns, and performance.
+
+### Specialized Agents
+- **Laravel Architect**: Expert in Laravel structure and service providers.
+- **PHP Code Reviewer**: Focuses on PSR standards and PHP-specific best practices.
+- **DB Expert**: Optimization for SQL and Eloquent queries.
+- **NoSQL & MQ Experts**: Specialized in Redis, MongoDB, and Message Queues.
+
+### Key Skills
+- **Eloquent Patterns**: Optimized database interactions and relationships.
+- **Clean Code PHP**: PHP-specific design principles.
+- **Microservices & Messaging**: Patterns for scalable PHP applications.
+- **CI/CD Flows**: Configured for both GitHub and GitLab.
+
+---
+
+## ⚡ TypeScript & NestJS Configuration (`.claude-ts`)
+
+The TypeScript configuration is optimized for NestJS and Prisma, providing a robust environment for enterprise-grade Node.js applications.
+
+### Specialized Agents
+- **NestJS Architect**: Expert in modules, decorators, and dependency injection.
+- **TS Code Reviewer**: Ensures type safety and modern TS features usage.
+- **DB & NoSQL Experts**: Specialized in relational and non-relational data modeling.
+- **Github/Gitlab Experts**: CI/CD and workflow specialists.
+
+### Key Skills
+- **Prisma Patterns**: Type-safe database access and migrations.
+- **NestJS Engineer**: Core backend development patterns.
+- **TypeScript Expert**: Advanced TS features and type safety.
+- **Message Queues**: Handling asynchronous tasks in Node.js.
+
+---
+
+## ☕ Spring Boot Configuration (`.claude`)
+
+The original Java-based configuration, optimized for enterprise Spring Boot applications.
+
+### Specialized Agents
+- **Spring Boot Engineer**: Core Spring framework expert.
+- **Java Architect**: High-level system design for JVM.
+- **DevOps & Kubernetes**: Cloud-native deployment specialists.
+
+### Key Skills
+- **JPA Patterns**: Hibernate and JPA optimization.
+- **Spring Security**: Robust authentication and authorization.
+- **Testing Patterns**: JUnit/Mockito strategies for enterprise apps.
