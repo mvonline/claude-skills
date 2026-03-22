@@ -13,14 +13,14 @@ This repository provides highly optimized, structured starting points for variou
 ```shell
 .
 ├── .claude/                # Spring Boot Configuration
-│   ├── agents/             # Java/Spring specialized agents
-│   └── skills/             # Java/Spring development skills
+│   ├── agents/             # senior-test-engineer.md, spring-boot-engineer.md...
+│   └── skills/             # meaningful-testing, spring-boot-patterns...
 ├── .claude-php/            # Laravel Configuration
-│   ├── agents/             # PHP/Laravel specialized agents
-│   └── skills/             # PHP/Laravel development skills
+│   ├── agents/             # senior-test-engineer.md, laravel-architect.md...
+│   └── skills/             # meaningful-testing, eloqent-patterns...
 ├── .claude-ts/             # NestJS Configuration
-│   ├── agents/             # TS/NestJS specialized agents
-│   └── skills/             # TS/NestJS development skills
+│   ├── agents/             # senior-test-engineer.md, nestjs-architect.md...
+│   └── skills/             # meaningful-testing, prisma-patterns...
 ├── CLAUDE.md               # Claude-specific project rules
 ├── README.md               # Project documentation
 └── pom.xml                 # Root Maven configuration (example)

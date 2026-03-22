@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer:*)",
+      "Bash(php artisan:*)",
+      "Bash(php vendor/bin/phpunit:*)",
+      "Bash(php vendor/bin/pest:*)",
+      "Bash(ls:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(curl:*)",
+      "Bash(grep -E \"\\\\.php$|\\\\.env$|\\\\.blade.php$|app/|routes/|config/|database/\")",
+      "Bash(docker-compose up:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker-compose down:*)"
+    ]
+  }
+}

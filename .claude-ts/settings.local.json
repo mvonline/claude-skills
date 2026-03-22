@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(pnpm:*)",
+      "Bash(yarn:*)",
+      "Bash(npx:*)",
+      "Bash(ls:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(grep -E \"\\\\.ts$|\\\\.js$|\\\\.json$|\\\\.env$|src/|test/|prisma/\")",
+      "Bash(docker-compose up:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker-compose down:*)"
+    ]
+  }
+}
